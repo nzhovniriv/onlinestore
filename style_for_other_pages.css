@@ -1,0 +1,54 @@
+/*Стиль для інших сторінок*/
+.style_for_other_pages{
+	text-align: justify;
+	text-indent: 30px;
+}
+
+/*Стиль для contacts*/
+#left,#right{
+	height: 150px;
+}
+/*Ширина батьківського елемента(div#content) 752px, що має встановлений padding 8px*/
+/*Доступна ширина для блоків(div#left і div#right) складає 736px*/
+#left{
+	width: 380px;
+	float: left;
+}
+#right{
+	width: 356px;
+	float: right;
+}
+
+/*Стиль для сторінок, що містять товарні позиції*/
+/*Доступна ширина для блоків(div#left_for_pages і div#right_for_pages) складає 736px*/
+#left_for_pages{
+	width: 450px;
+	height: 360px;
+	float: left;
+}
+#right_for_pages{
+	width: 286px;
+	height: 360px;
+	float: left;
+}
+#clear_for_pages{
+	clear: both;
+}
+#right_for_pages p{
+	text-align: justify;
+}
+/*736px = 240px(label_for_left_box) + 490px(label_for_right_box) +6px(padding-left)*/
+.label_for_left_box{
+	float: left;
+	width: 240px;
+	color: gray;
+}
+.label_for_right_box{
+	float: left;
+	width: 490px;
+	padding-left: 6px;
+}
+#right_for_pages h4{
+	text-align:center;
+	margin:5px 0px;
+}

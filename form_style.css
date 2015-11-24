@@ -1,0 +1,64 @@
+#enter .label{
+	width: 70px; /*ширина блоку з текстом(float робить його блочним)*/
+	float: left; /*розташування в один рядок з полем*/
+	text-align: center;
+}
+#enter .form-text{
+	width: 150px; /*ширина поля*/
+	margin-left: 5px; /*відстань між полем і текстом*/
+	border: 1px solid #abadb3; /*рамка навколо текстового поля*/
+	padding: 2px; /*поля навколо тексту*/
+}
+#enter .form-item{
+	margin: 5px 0 5px; /*відступ знизу і зверху*/
+	font: 16px 'Times New Roman', serif;
+}
+#enter .form-text:focus{
+	background: #ffb; /*колір фону*/
+	border: 1px solid #29b0d9; /*параметри рамки поля, що получає фокус*/
+}
+#enter p{
+	margin: 5px 0 5px 75px; /*відступи знизу, зверху та зсув вправо на 75px(70px - ширина блоку з текстом, 5px - відстань між полем і текстом)*/
+}
+
+#reg{
+	width:300px;
+}
+#reg .label{
+	width: 130px; /*ширина блоку з текстом(float робить його блочним)*/
+	float: left; /*розташування в один рядок з полем*/
+	text-align: right;
+}
+#reg .form-text{
+	width: 150px; /*ширина поля*/
+	margin-left: 5px; /*відстань між полем і текстом*/
+	border: 1px solid #abadb3; /*рамка навколо текстового поля*/
+	padding: 2px; /*поля навколо тексту*/
+}
+#reg .form-item{
+	margin: 5px 0 5px; /*відступ знизу і зверху*/
+	font: 16px 'Times New Roman', serif;
+}
+#reg .form-text:focus{
+	background: #ffb; /*колір фону*/
+	border: 1px solid #29b0d9; /*параметри рамки поля, що получає фокус*/
+}
+
+#request .form-text{
+	width: 150px; /*ширина поля*/
+	margin-left: 5px; /*відстань між полем і текстом*/
+	border: 1px solid #abadb3; /*рамка навколо текстового поля*/
+	padding: 2px; /*поля навколо тексту*/
+}
+#request .form-text:focus{
+	background: #ffb; /*колір фону*/
+	border: 1px solid #29b0d9; /*параметри рамки поля, що получає фокус*/
+}
+#request .textarea-tetx{
+	border: 1px solid #abadb3; /*рамка навколо поля*/
+	padding: 2px; /*поля навколо тексту*/
+}
+#request .textarea-tetx:focus{
+	background: #ffb; /*колір фону*/
+	border: 1px solid #29b0d9; /*параметри рамки поля, що получає фокус*/
+}

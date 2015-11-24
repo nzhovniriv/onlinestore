@@ -1,0 +1,12 @@
+#img{
+	overflow: hidden;
+}
+#img ul{
+	list-style-type:none;
+	width:10000px;/*задаємо велику ширину, бо може бути багато картинок*/
+	margin:0;
+	padding:0;
+}
+#img li{
+	float:left;
+}

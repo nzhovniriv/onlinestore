@@ -1,0 +1,23 @@
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	background: url(img/left.png) repeat-y 0 0;
+}
+html, body, #container{
+	height:100%;
+}
+#main{
+	min-height:100%;
+	margin-bottom: -70px;/*50px footer + 10px padding у footer*/
+	background: url(img/right.png) repeat-y 100% 0;
+}
+#all{
+	padding-bottom: 70px;/*щоб текст не заїжджав*/
+	background: url(img/left.png) repeat-y 0 0;
+}
+#footer{
+	background: #8fa09b;
+	color: #fff;
+	height: 50px;
+	padding: 10px;
+}

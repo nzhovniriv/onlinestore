@@ -1,0 +1,11 @@
+#content{
+	float: left;
+	width: 736px;/*padding 8px для цього блоку, тому вся ширина колонки буде 752px*/
+}
+#sidebar{
+	float: right;
+	width: 240px;/*padding 4px для цього блоку, тому вся ширина колонки буде 248px*/
+}
+.clear{
+	clear: both;/*для того щоб батьківський елемент враховував висоту*/
+}

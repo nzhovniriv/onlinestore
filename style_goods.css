@@ -1,0 +1,20 @@
+#goods div{
+	width:352px;
+	height:148px;
+	padding:5px;
+	border:1px solid grey;
+	float:left;
+	margin:2px;
+ }
+#goods div:hover{
+	border:1px solid red;
+}
+#goods p{
+	text-align: center;
+}
+#goods #clear_for_goods{/*щоб збільшити пріорітет*/
+	clear:both;
+	width:0px;
+	height:0px;
+	padding:0px;
+}

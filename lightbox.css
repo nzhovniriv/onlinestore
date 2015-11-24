@@ -1,0 +1,26 @@
+#lightbox{
+	position: absolute;
+	/*розтягуємо блок на всю ширину і висоту документа*/
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	
+	background-color: black; 
+	opacity: .4;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+	display: none;/*щоб блоку lightbox не було при завантаженні сторінки*/
+}
+#photo_for_lightbox{
+	position: absolute;
+	/*розтягуємо блок на всю ширину і висоту документа*/
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	
+	background-image: url('img/deshevshe2.jpg');/*фонова картинка більшого розміру*/
+	background-repeat: no-repeat;/*відключаємо повторюваність*/
+	background-position: center center;/*розташування картинки*/
+	display: none;/*щоб блоку не було*/
+}

@@ -1,0 +1,20 @@
+body{
+	font: 16px/12px Arial, Helvetica, sans-serif;
+	margin:0;
+	background:#00FFFF;
+}
+#img{
+	height: 285px;
+}
+#footer{
+	color:rgb(23,52,56);
+}
+#sidebar{
+	padding: 4px;
+}
+#content{
+	padding: 8px;
+}
+#content *{
+	line-height:20px;
+}

@@ -1,0 +1,55 @@
+#hormenu{
+	font-size:0;/*щоб прибрати пробіли між елементами li*/
+	padding:0;
+	width:100%;
+	display:table;
+}
+#hormenu li{
+	list-style-type: none;
+	display:table-cell;
+	font-size:15px;
+	text-align: center;
+}
+.button {
+	width:100%;
+	display:inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	padding: 5px 0;
+	color: #d9eef7;
+	background: #0095cd;
+}
+
+.border{
+	position:relative;
+	overflow: hidden;
+}
+.border .png{
+	background: url(img/buttons1.png) no-repeat;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+}
+.border .lt{
+	top:-10px;
+	left:-10px;
+}
+.border .rt{
+	top:-10px;
+	right:-10px;
+}
+.border .lb{
+	bottom:-10px;
+	left:-10px;
+}
+.border .rb{
+	bottom:-10px;
+	right:-10px;
+}
+.border:hover .png {
+	background: url(img/buttons2.png) no-repeat;
+}
+li:hover .button {
+	background-color: #007ead;
+	color: black;
+}

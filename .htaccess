@@ -1,0 +1,3 @@
+#Файл, що буде запускатися по замовчуванню
+Options Indexes
+DirectoryIndex index.php

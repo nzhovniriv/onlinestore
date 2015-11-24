@@ -1,0 +1,18 @@
+[
+{
+"display": "Нова пошта",
+"url": "http://www.novaposhta.com.ua"
+},
+{
+"display": "Автолюкс",
+"url": "http://www.autolux.ua"
+},
+{
+"display": "Нічний експрес",
+"url": "http://www.nexpress.com.ua"
+},
+{
+"display": "Ін-Тайм",
+"url": "http://www.intime.ua"
+}
+]

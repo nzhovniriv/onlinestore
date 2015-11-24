@@ -1,0 +1,13 @@
+/*Стилі для сторінки з коментарями*/
+.comment{
+	background:grey;
+	width:600px;
+	height:19px;
+	padding:10px;
+	font:16px 'Times New Roman', Times, serif;
+	border: 1px solid black;
+	text-align:center;
+}
+.class_hide{
+	display: none;/*щоб приховати необхідний блок*/
+}
